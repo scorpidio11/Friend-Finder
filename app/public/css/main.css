@@ -1,48 +1,87 @@
-body {
-	background-color :#f7f0e5;
-	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+html { 
+    background: url("friends.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  body {
+    background-color: rgba(8, 8, 8, 0) !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+    
+   color: white;
 }
 
 h1{
-    font-size: 4.5rem;
+    font-size: 8.5rem;
      margin-bottom: 0rem; 
-     color:#2bbbad;
+     color:rgb(167, 235, 199);
+     font-family: 'Faster One', cursive;
+     text-shadow: 4px 4px rgba(8, 8, 8, 0.4);
 }
 
-h4 {
-    font-size: 1rem;
-     margin-bottom: 0rem;
+h2{
+    font-size: 2.5rem;
+     margin-bottom: 0rem; 
+     color: black;
+     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h3 {
-
-    font-size: 1.5rem;
-     margin-bottom: 0rem;
+strong{
+    text-shadow: 2px 2px rgba(8, 8, 8, 0.4);
 }
 
-button, div, form, input {
-    margin: 5px;
+.btn-light {
+    color: #fff;
+    background-color: rgb(235, 131, 100);
+    border-color: rgb(235, 131, 100);
+   
 }
+
+
 
 .btn {
-    padding: .54rem 0.5rem;
+    display: inline-block;
+   padding-bottom: 20px;
+   padding: 0 30px 12px 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(235, 131, 100);
+    text-shadow: 1px 2px rgba(8, 8, 8, 0.2);
 }
 
-.navbar form .md-form input {
-    margin: 0 5px 0px 8px;
+#question {
+
+   color: white;
+
 }
 
-input:-webkit-autofill {
-    background-color: white;
+hr{
+
+    display: block;
+    height: 1px;
+    border: 1px;
+    border-top: 1px solid rgb(202, 243, 248, 0.7);
+    margin: 1em 0;
+    padding: 0; 
+
+
+
 }
 
-.btn.btn-sm {
-    padding: .5rem 1.6rem;
-    font-size: .84rem;
+img
+{
+    width: 100% !important;
 }
-
-.btn-mdb-color {
-    background-color: #8d131e!important;
-    color: #fff!important;
-}
-
