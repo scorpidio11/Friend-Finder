@@ -115,7 +115,7 @@ var friends = [
            2
          ]
       },  {
-        name:"RD",
+        name:"LD",
         photo:"https://media3.giphy.com/media/3o7WIscqG6UCaOvjSU/giphy.gif?cid=3640f6095bd3ee5235696b6d450810ba",
         scores:[
            5,
