@@ -4,7 +4,7 @@
 
 var friends = [
     {
-        name:"Ahmed",
+        name:"Tom",
         photo:"https://media3.giphy.com/media/3o84sy6I7GHu6tACLm/200w.webp?cid=3640f6095bd3f1a4627573316f8027ca",
         scores:[
            5,
@@ -84,7 +84,7 @@ var friends = [
          ]
       },
       {
-        name:"Shikamaru",
+        name:"Jack",
         photo:"https://media1.giphy.com/media/TlK63EKU3KSbIJclH5C/200.webp?cid=3640f6095bd3ef304c36574e73d38ccc",
         scores:[
            5,
@@ -115,13 +115,13 @@ var friends = [
            2
          ]
       },  {
-        name:"Yoyoma",
+        name:"RD",
         photo:"https://media3.giphy.com/media/3o7WIscqG6UCaOvjSU/giphy.gif?cid=3640f6095bd3ee5235696b6d450810ba",
         scores:[
            5,
-           1,
-           1,
-           1,
+           3,
+           4,
+           3,
            5,
            3,
            3,

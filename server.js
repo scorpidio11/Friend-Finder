@@ -16,6 +16,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/static', express.static(path.join(__dirname, 'app/public/css/')))
 
+//app.use(express.static("public"));
+
+
 
 
  app.use(bodyParser.urlencoded({ extended: true }));
