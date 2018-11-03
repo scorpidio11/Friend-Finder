@@ -34,16 +34,16 @@ module.exports = function(app){
     // each user in the database
     var totalDifference = 0;
 
-    // Here we loop through all the friend possibilities in the database.
+    // loop through all the friend possibilities in the database.
     for (var i = 0; i < friends.length; i++) {
 
       console.log(friends[i].name);
       totalDifference = 0;
 
-      // We then loop through all the scores of each friend
+      // loop through all the scores of each friend
       for (var j = 0; j < friends[i].scores[j]; j++) {
 
-        // We calculate the difference between the scores and sum them into the totalDifference
+        // calculate the difference between the scores and sum them into the totalDifference
         totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
 
         // If the sum of differences is less then the differences of the current "best match"
